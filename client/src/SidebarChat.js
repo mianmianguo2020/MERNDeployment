@@ -3,7 +3,7 @@ import Avatar from '@material-ui/core/Avatar';
 
 import './SidebarChat.css'
 
-function SidebarChat() {
+function SidebarChat({addNewChat}) {
 
     const [seed, setSeed] = useState("");
 
